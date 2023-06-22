@@ -2,7 +2,7 @@ const readLine = require('readline').createInterface({
     input : process.stdin,
     output : process.stdout
 }); /*readLine Ler input na linha de comando */
-/* require requisita */
+/* require requisita  */
 
 readLine.question('Qual a sua idade? ', idade => {
     if(idade < 18){
